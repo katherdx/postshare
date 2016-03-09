@@ -6,7 +6,7 @@
     "MySQL": {
     "host": "localhost",
     "database": "postshare",
-    "password": "assyst@123",
+    "password": "xxxxxx",
     "name": "MySQL",
     "user": "root",
     "connector": "mysql"
