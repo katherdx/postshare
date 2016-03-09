@@ -1,0 +1,22 @@
+{
+  "name": "share",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "shareid":{
+      "id": true,
+      "required":true,
+       "type": "number"
+      },
+    "userid": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

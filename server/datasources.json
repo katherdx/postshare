@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+    "MySQL": {
+    "host": "localhost",
+    "database": "postshare",
+    "password": "assyst@123",
+    "name": "MySQL",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

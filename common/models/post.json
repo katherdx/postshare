@@ -1,0 +1,31 @@
+{
+  "name": "post",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "postid":{
+      "id": true,
+     "required": true,
+     "type": "number"
+      },
+    "postname": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "shares": {
+      "type": "hasMany",
+      "model": "share",
+      "foreignKey": "postid"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
